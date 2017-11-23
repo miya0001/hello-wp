@@ -1,0 +1,23 @@
+{
+  "name": "hello-wp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "deploy": "gcloud beta functions deploy helloWapuu --stage-bucket hello-wapuu --trigger-http",
+    "test": "mocha ./test/**/test-*.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^4.0.1"
+  },
+  "dependencies": {
+    "request": "^2.83.0",
+    "sprintf": "^0.1.5"
+  }
+}
