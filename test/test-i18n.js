@@ -5,14 +5,14 @@ const __ = require( '../lib/i18n' );
 describe( 'i18n', () => {
 
   it( 'Text should be displayed in English.', () => {
-    const text = __( 'The current version is %s.', '4.9' );
-    assert.equal( text, 'The current version is 4.9.' );
+    const text = __( 'The current version is %s. %s downloded.', '4.9' );
+    assert.ok( text.match( /^The current version is/ ) );
   } );
 
   it( 'Text should be translated to Japanese.', () => {
     global.lang = require( path.join( '../lang', 'ja' ) );
-    const text = __( 'The current version is %s.', '4.9' );
-    assert.equal( text, '現在のバージョンは 4.9 です。' );
+    const text = __( 'The current version is %s. %s downloded.', '4.9' );
+    assert.ok( 0 === text.indexOf( '現在の' ) );
   } );
 
 } );

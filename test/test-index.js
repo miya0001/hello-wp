@@ -21,8 +21,8 @@ describe( 'Tests for main function.', () => {
 
   it( 'Object should be returned as expected.', ( done ) => {
     res.done = function( result ) {
-      assert.equal( result.speech, 'The current version is 4.9.' );
-      assert.equal( result.displayText, 'The current version is 4.9.' );
+      assert.ok( result.speech.match( /^The current version is/ ) );
+      assert.ok( result.speech.match( /^The current version is/ ) );
       done();
     }
     app.helloWapuu( req, res );
@@ -31,8 +31,8 @@ describe( 'Tests for main function.', () => {
   it( 'Object should be returned as expected with translation.', ( done ) => {
     req.body.lang = 'ja';
     res.done = function( result ) {
-      assert.equal( result.speech, '現在のバージョンは 4.9 です。' );
-      assert.equal( result.displayText, '現在のバージョンは 4.9 です。' );
+      assert.ok( 0 === result.speech.indexOf( '現在の' ) );
+      assert.ok( 0 === result.displayText.indexOf( '現在の' ) );
       done();
     }
     app.helloWapuu( req, res );
