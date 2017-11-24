@@ -20,7 +20,7 @@ res.send = function( data ) {
 describe( 'Tests for main function.', () => {
 
   it( 'Object should be returned as expected.', ( done ) => {
-    res.done = function( result ) {
+    res.done = ( result ) => {
       assert.ok( result.speech.match( /^The current version is/ ) );
       assert.ok( result.speech.match( /^The current version is/ ) );
       done();
@@ -30,7 +30,7 @@ describe( 'Tests for main function.', () => {
 
   it( 'Object should be returned as expected with translation.', ( done ) => {
     req.body.lang = 'ja';
-    res.done = function( result ) {
+    res.done = ( result ) => {
       assert.ok( 0 === result.speech.indexOf( '現在の' ) );
       assert.ok( 0 === result.displayText.indexOf( '現在の' ) );
       done();
