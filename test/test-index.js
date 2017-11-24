@@ -25,7 +25,7 @@ describe( 'Tests for main function.', () => {
       assert.ok( result.speech.match( /^The current version is/ ) );
       done();
     }
-    app.helloWapuu( req, res );
+    app.helloWP( req, res );
   } );
 
   it( 'Object should be returned as expected with translation.', ( done ) => {
@@ -35,7 +35,7 @@ describe( 'Tests for main function.', () => {
       assert.ok( 0 === result.displayText.indexOf( '現在の' ) );
       done();
     }
-    app.helloWapuu( req, res );
+    app.helloWP( req, res );
   } );
 
 } );
