@@ -6,7 +6,7 @@ const modules = {
   downloads: require( './modules/downloads' )
 }
 
-exports.helloWapuu = ( req, res ) => {
+exports.helloWP = ( req, res ) => {
 
   const locale = req.body.lang;
   const action = req.body.result.action;

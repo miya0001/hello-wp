@@ -8,7 +8,7 @@
     "test": "tests"
   },
   "scripts": {
-    "deploy": "gcloud beta functions deploy helloWapuu --stage-bucket hello-wapuu --trigger-http",
+    "deploy": "gcloud beta functions deploy helloWP --stage-bucket ok-wp --trigger-http",
     "test": "mocha ./test/**/test-*.js"
   },
   "author": "",
