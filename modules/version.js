@@ -8,7 +8,7 @@ module.exports = function( req, res ) {
     const counter_url = 'https://wordpress.org/download/counter/?ajaxupdate=1';
     request( counter_url, { json: false }, ( err, response, body ) => {
       const downloaded = body;
-      const text = __( "The current version is %s. %s downloded.", version, downloaded );
+      const text = __( "The current version is %s. This version has been downloaded %s times.", version, downloaded );
       res.setHeader( 'Content-Type', 'application/json' );
       res.send( JSON.stringify( {
         "speech": text, // for speech version
