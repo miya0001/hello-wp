@@ -2,7 +2,8 @@ const path = require( 'path' );
 const fs = require( 'fs' );
 
 const modules = {
-  version: require( './modules/version' )
+  version: require( './modules/version' ),
+  downloads: require( './modules/downloads' )
 }
 
 exports.helloWapuu = ( req, res ) => {

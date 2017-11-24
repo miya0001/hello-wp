@@ -1,3 +1,4 @@
 {
-  "The current version is %s. This version has been downloaded %s times.": "現在のバージョンは %s です。このバージョンは %s 回ダウンロードされました。"
+  "The current version is %s. This version has been downloaded %s times.": "現在のバージョンは %s です。このバージョンは %s 回ダウンロードされました。",
+  "WordPress %s has been downloaded %s times.": "WordPress %s は %s 回ダウンロードされました。"
 }
