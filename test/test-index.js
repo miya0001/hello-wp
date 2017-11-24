@@ -24,7 +24,7 @@ describe( 'Tests for main function.', () => {
       assert.ok( result.speech.match( /^The current version is/ ) );
       assert.ok( result.speech.match( /^The current version is/ ) );
       done();
-    }
+    };
     app.helloWP( req, res );
   } );
 
@@ -34,7 +34,7 @@ describe( 'Tests for main function.', () => {
       assert.ok( 0 === result.speech.indexOf( '現在の' ) );
       assert.ok( 0 === result.displayText.indexOf( '現在の' ) );
       done();
-    }
+    };
     app.helloWP( req, res );
   } );
 
