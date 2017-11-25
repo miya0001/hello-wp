@@ -1,0 +1,35 @@
+[
+  {
+    "id": "bda0e7e5-03e1-43ab-8e9b-3b3b1d053902",
+    "data": [
+      {
+        "text": "How many downloads?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "04266e23-92cf-427d-b0d1-e4216c4b5544",
+    "data": [
+      {
+        "text": "How many times does the current version downloaded?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "b767d76c-074c-4b61-8a70-3a3f7814d3b5",
+    "data": [
+      {
+        "text": "How many times does the latest version downloaded?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

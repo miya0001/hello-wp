@@ -1,0 +1,33 @@
+{
+  "id": "b5771c19-fd9c-4ea0-8df7-4fe73205bd03",
+  "name": "fallback",
+  "auto": false,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Sorry, can you say that again?"
+        },
+        {
+          "type": 0,
+          "lang": "ja",
+          "speech": "すいません。もう一度話していただけますか？"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1511616593,
+  "fallbackIntent": true,
+  "events": []
+}

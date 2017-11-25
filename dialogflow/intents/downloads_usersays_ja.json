@@ -1,0 +1,114 @@
+[
+  {
+    "id": "24a2240b-4441-421b-a4da-e4f6cb57cb9b",
+    "data": [
+      {
+        "text": "何ダウン",
+        "userDefined": false
+      },
+      {
+        "text": "ロード",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "されましたか？",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "ab267c19-16d6-4fa5-a4a1-819dc87d2363",
+    "data": [
+      {
+        "text": "今のダウン",
+        "userDefined": false
+      },
+      {
+        "text": "ロード",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "数は",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "889aa3db-ba86-4d28-a85c-6f0446b7b910",
+    "data": [
+      {
+        "text": "いくつダウン",
+        "userDefined": false
+      },
+      {
+        "text": "ロード",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1511518778
+  },
+  {
+    "id": "9f7db8f8-6572-4d05-b2bb-7bdf8d1d89b0",
+    "data": [
+      {
+        "text": "どれぐらいダウン",
+        "userDefined": false
+      },
+      {
+        "text": "ロード",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1511518778
+  },
+  {
+    "id": "1cf9970c-920a-4b9f-b965-3221d1859418",
+    "data": [
+      {
+        "text": "何回ダウン",
+        "userDefined": false
+      },
+      {
+        "text": "ロード",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1511518778
+  },
+  {
+    "id": "4106ff94-2a39-4b25-8b63-56f8f4ff16ba",
+    "data": [
+      {
+        "text": "ダウン",
+        "userDefined": false
+      },
+      {
+        "text": "ロード",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "数",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1511518778
+  }
+]

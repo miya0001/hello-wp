@@ -1,0 +1,29 @@
+{
+  "id": "219c2bf3-9e62-42ff-a570-653afe41a76e",
+  "name": "downloads",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "downloads",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "ja",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1511518778,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,28 @@
+{
+  "id": "76faf477-fb6b-45f2-9ff3-6930a096b6cc",
+  "name": "bye",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "ja",
+          "speech": "ありがとうございました。"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1511471843,
+  "fallbackIntent": false,
+  "events": []
+}

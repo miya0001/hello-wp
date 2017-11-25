@@ -1,0 +1,68 @@
+[
+  {
+    "id": "c16ecbf7-524e-45dd-aef8-be3d43dea51d",
+    "data": [
+      {
+        "text": "今のバージョン",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "a6998ace-c747-48e8-90d6-738734c09199",
+    "data": [
+      {
+        "text": "バージョンを教えて",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1
+  },
+  {
+    "id": "17339178-f87d-404b-bf2f-84e334ff6798",
+    "data": [
+      {
+        "text": "最新版",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "8ee18358-19ea-4514-8d41-c7b8f7cf624f",
+    "data": [
+      {
+        "text": "バージョン番号",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "faf93399-96ec-4afb-b1e7-73c0867b7501",
+    "data": [
+      {
+        "text": "最新のバージョン",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "d7e2d37b-c970-4e84-8cd5-f5bdb5123afe",
+    "data": [
+      {
+        "text": "バージョンナンバー",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1
+  }
+]

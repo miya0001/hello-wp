@@ -1,0 +1,62 @@
+[
+  {
+    "id": "c9fd7a34-a227-4d0e-b30b-b1e2b08832e3",
+    "data": [
+      {
+        "text": "さようなら",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1511471843
+  },
+  {
+    "id": "fc8c0608-47ea-47ce-b00f-7cdecae119a2",
+    "data": [
+      {
+        "text": "もういいよ",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1511471843
+  },
+  {
+    "id": "ade5a398-6ef9-4eb6-80ee-e6bd81e61595",
+    "data": [
+      {
+        "text": "ばいばい",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1511471843
+  },
+  {
+    "id": "ac114980-196e-44ca-bc2b-6b9148dfa305",
+    "data": [
+      {
+        "text": "じゃあね",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1511471843
+  },
+  {
+    "id": "05577b9f-5aa9-4daf-9a93-8837686649cf",
+    "data": [
+      {
+        "text": "ありがとう",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1511471843
+  }
+]
