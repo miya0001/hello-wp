@@ -2,13 +2,22 @@
 
 [![Build Status](https://travis-ci.org/miya0001/hello-wp.svg?branch=master)](https://travis-ci.org/miya0001/hello-wp)
 
-## Bot that talks about WordPress
-
 ![](docs/movie.gif)
+
+## Platform
 
 * Google Assistant
 * Amazon Alexa
 * Facebook messenger
 * etc
+
+## Languages
+
+* English
+* Japanese
+
+i18n ready!
+
+## Features
 
 This project is WIP.
